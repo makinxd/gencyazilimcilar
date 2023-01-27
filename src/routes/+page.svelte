@@ -27,7 +27,7 @@
     }
 
     :global(body) {
-		background-image: url('assets/background/background.jpg');
+		background-image: url('./assets/background/background.jpg');
         color: white;
         font-family: 'Poppins', sans-serif;
         max-width: 120ch;
