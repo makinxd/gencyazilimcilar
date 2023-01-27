@@ -4,7 +4,7 @@
 </svelte:head>
 
 <div class="logo">
-    <img style="vertical-align: middle" src="images/gyazilimcilarlogo.png" alt=""/>
+    <img style="vertical-align: middle" src="assets/gyazilimcilarlogo.png" alt=""/>
     <span style="vertical-align: middle"> Genç Yazılımcılar</span>
 </div>
 
@@ -27,7 +27,7 @@
     }
 
     :global(body) {
-		background: url(images/background.png);
+		background: url(assets/background.png);
         color: white;
         font-family: 'Poppins', sans-serif;
         max-width: 120ch;
