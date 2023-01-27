@@ -27,7 +27,7 @@
     }
 
     :global(body) {
-		background-image: url('assets/background.jpg');
+		background-image: url("assets/gyazilimcilarlogo.png");
         color: white;
         font-family: 'Poppins', sans-serif;
         max-width: 120ch;
