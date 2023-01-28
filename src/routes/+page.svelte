@@ -6,7 +6,7 @@
 </svelte:head>
 
 <div class="logo">
-    <img style="vertical-align: middle" src="images/logo/gyazilimcilarlogo.png" alt=""/>
+    <img style="vertical-align: middle" src="images/logo/gyazilimcilarlogo.png" alt="logo"/>
     <span style="vertical-align: middle"> Genç Yazılımcılar</span>
 </div>
 
