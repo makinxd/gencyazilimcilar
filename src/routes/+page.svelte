@@ -1,5 +1,7 @@
 <svelte:head>
 	<title>Genç Yazılımcılar</title>
+    <meta name="description" content="Genç Yazılımcılar Topluluğu">
+    <meta name="keywords" content="Yazilim, Discord, Genç">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </svelte:head>
 
