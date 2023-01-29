@@ -14,8 +14,8 @@
     <h1>Genç geliştiriciler için genç bir topluluk.</h1>
     <p>Yeni nesil geliştiriciler için kurulmuş, birlikte gelişen bir yazılımcı topluluğuyuz.</p>
     <div class="links">
-        <a href="https://discord.gg/kEYXgAZndV" target="_blank" rel="noopener noreferrer" class="button">Discord'da bize katıl &#8250;</a>
-        <a href="https://twitter.com/gyazilimcilar/" target="_blank" rel="noopener noreferrer" class="button" style="background: transparent; box-shadow:inset 0px 0px 0px 3px #ffffff;">Twitter'da bizi takip et</a>
+        <a href="https://discord.gg/kEYXgAZndV" target="_blank" rel="noreferrer nofollow" class="button">Discord'da bize katıl &#8250;</a>
+        <a href="https://twitter.com/gyazilimcilar/" target="_blank" rel="noreferrer nofollow" class="button" style="background: transparent; box-shadow:inset 0px 0px 0px 3px #ffffff;">Twitter'da bizi takip et</a>
     </div>
 </div>
 
