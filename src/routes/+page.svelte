@@ -1,6 +1,6 @@
 <svelte:head>
 	<title>Genç Yazılımcılar</title>
-    <meta name="description" content="Genç Yazılımcılar için genç bir topluluk.">
+    <meta name="description" content="Genç yazılımcılar için genç bir topluluk.">
     <meta name="author" content="Genç Yazılımcılar">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </svelte:head>
