@@ -25,7 +25,7 @@
         <br>
         <h3>• Neden Katılmalıyım?</h3>
         <p>Topluluğumuza özel bazı özellikler bulunmaktadır. Özel etkinlikler, çekilişler, yarışmalar, sosyal medya hesaplarımızdan yaptığınız projelerin yayını ve çeşitli sponsorluklar, özelliklerden bazılarıdır.</p>
-        <p>Bize katılarak; tüm bu özelliklere erişim sağlıyor, Türkiye'nin ilk gençler için gençler tarafından kurulmuş yazılım topluluğuna destek veriyorsunuz.</p>
+        <p>Bize katılarak; tüm bu özelliklere erişim sağlıyor, Türkiye'nin ilk, gençler için gençler tarafından kurulmuş yazılım topluluğuna destek veriyorsunuz.</p>
     </div>
     <br>
 </div>
@@ -114,7 +114,7 @@
 
     footer {
         font-weight: bolder;
-        color: #757575;
+        color: #64686a;
         margin: 40px 0px 40px 0px;
     }
 
