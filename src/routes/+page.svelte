@@ -21,10 +21,10 @@
     
     <div class="content-1" style="text-align: left; height: 100%;">
         <h3>• Genç Yazılımcılar Kimdir?</h3>
-        <p>Genç Yazılımcılar bir topluluk projesidir. Amacımız ülkemizde bulunan ve yazılım alanında yüksek bilgiye sahip olan gençleri bir araya getirmektir.</p>
+        <p>Genç Yazılımcılar bir topluluk projesidir. Amacımız ülkemizde bulunan yazılım ve bilgisayar alanında yüksek bilgiye sahip olan gençleri bir araya getirmektir.</p>
         <br>
         <h3>• Neden Katılmalıyım?</h3>
-        <p>Topluluğumuza özel bazı özellikler bulunmaktadır. Özel etkinlikler, çekilişler, yarışmalar, sosyal medya hesaplarımızdan yaptığınız projelerin yayını ve çeşitli sponsorluklar, özelliklerden bazılarıdır.</p>
+        <p>Topluluğumuza ait bazı özellikler bulunmaktadır. Etkinlikler, çekilişler, yarışmalar, sosyal medya hesaplarımızdan yaptığınız projelerin yayını, çeşitli sponsorluklar ve sohbet ortamı, bu özelliklerden bazılarıdır.</p>
         <p>Bize katılarak; tüm bu özelliklere erişim sağlıyor, Türkiye'nin ilk, gençler için gençler tarafından kurulmuş yazılım topluluğuna destek veriyorsunuz.</p>
     </div>
     <br>
@@ -87,7 +87,7 @@
     .content-1 p {
         font-size: 20px;
         line-height: 1.6;
-        color: rgba(247, 253, 255, 0.75);
+        color: rgba(247, 253, 255, 0.72);
         margin: 5px 0px 0px 0px;
     }
 
