@@ -55,7 +55,7 @@
 	}
 
     .logo {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: bolder;
         position: relative;
         position: absolute;
@@ -63,7 +63,7 @@
     }
 
     img {
-        width: 34px;
+        width: 32px;
     }
     
     .content-1 {
