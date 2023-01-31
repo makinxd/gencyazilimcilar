@@ -11,6 +11,7 @@ const config = {
 		adapter: adapter({
 		   pages: 'build',
 		   assets: 'build',
+		   static: 'build',
 		   fallback: null
 		})
 	}

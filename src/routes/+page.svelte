@@ -10,14 +10,29 @@
     <span style="vertical-align: middle"> Genç Yazılımcılar</span>
 </div>
 
-<div class="content-1">
-    <h1>Genç geliştiriciler için genç bir topluluk.</h1>
-    <p>Yeni nesil geliştiriciler için kurulmuş, birlikte gelişen bir yazılımcı topluluğuyuz.</p>
-    <div class="links">
-        <a href="https://discord.gg/kEYXgAZndV" target="_blank" rel="noreferrer nofollow" class="button">Discord'da bize katıl &#8250;</a>
-        <a href="https://twitter.com/gyazilimcilar/" target="_blank" rel="noreferrer nofollow" class="button" style="background: transparent; box-shadow:inset 0px 0px 0px 3px #ffffff;">Twitter'da bizi takip et</a>
+<div class="container">
+    <div class="content-1" style="text-align: left;">
+        <h1>Genç geliştiriciler için genç bir topluluk.</h1>
+        <p>Yeni nesil geliştiriciler için kurulmuş, birlikte gelişen bir yazılımcı topluluğuyuz.</p>
+        <div class="links">
+            <a href="https://discord.gg/kEYXgAZndV" target="_blank" rel="noreferrer nofollow" class="button">Discord'da aramıza katıl &#8250;</a>
+        </div>
     </div>
+    
+    <div class="content-1" style="text-align: left; height: 100%;">
+        <h3>• Genç Yazılımcılar Kimdir?</h3>
+        <p>Genç Yazılımcılar bir topluluk projesidir. Amacımız ülkemizde bulunan ve yazılım alanında yüksek bilgiye sahip olan gençleri bir araya getirmektir.</p>
+        <br>
+        <h3>• Neden Katılmalıyım?</h3>
+        <p>Topluluğumuza özel bazı özellikler bulunmaktadır. Özel etkinlikler, çekilişler, yarışmalar, sosyal medya hesaplarımızdan yaptığınız projelerin yayını ve çeşitli sponsorluklar, özelliklerden bazılarıdır.</p>
+        <p>Bize katılarak; tüm bu özelliklere erişim sağlıyor, Türkiye'nin ilk gençler için gençler tarafından kurulmuş yazılım topluluğuna destek veriyorsunuz.</p>
+    </div>
+    <br>
 </div>
+
+<footer>
+    <p>&#169; Genç Yazılımcılar</p>
+</footer>
 
 <style>
     :global(:root) {
@@ -29,81 +44,87 @@
     }
 
     :global(body) {
-		background-image: url('/build/images/background/background.jpg');
+        background-color: rgb(11, 6, 12);
         color: white;
         font-family: 'Poppins', sans-serif;
-        max-width: 120ch;
+        max-width: 110ch;
         height: 100%;
         margin: 0 auto;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 25px;
+        padding-right: 25px;
 	}
 
     .logo {
-        color: white;
-        font-size: 18px;
+        font-size: 20px;
         font-weight: bolder;
         position: relative;
-        text-align: left;
+        position: absolute;
         margin-top: calc(var(--spacing-unit) * 7);
     }
 
     img {
-        width: 32px;
+        width: 34px;
     }
-
+    
     .content-1 {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        height: 84vh;
+        gap: 8px;
+        height: 100vh;
     }
 
     .content-1 h1 {
-        color: white;
-        font-size: 30px;
-        margin: 0;
+        font-size: 26px;
+        margin: 0px;
+    }
+
+    .content-1 h3 {
+        font-size: 22px;
+        margin: 0px;
     }
 
     .content-1 p {
-        color: rgba(255, 255, 255, 0.8);
         font-size: 20px;
-        margin: 12px 0px 12px 0px;
+        line-height: 1.6;
+        color: rgba(247, 253, 255, 0.75);
+        margin: 5px 0px 0px 0px;
     }
 
     .links {
-        text-align: left;
         display: inline-block;
         padding: 20px 0px;
     }
     
     .button {
-        background: linear-gradient(215deg, rgba(249,175,37,1) 0%, rgba(219,31,216,1) 100%);
+        background: linear-gradient(215deg, rgb(255, 194, 28) 0%, rgb(241, 20, 237) 100%);
         color: white;
         font-weight: bolder;
         text-align: center;
         text-decoration: none;
         font-size: 16px;
-        border-radius: 16px;
-        padding: 12px 24px;
-        margin: 20px 10px 0px 0px;
+        border-radius: 12px;
+        padding: 10px 24px;
+        margin: 0px;
         transition: ease-in 0.1s;
     }
     .button:hover {
-        padding: 12px 28px;
-        opacity: 0.85;
+        opacity: 0.8;
+    }
+
+    footer {
+        color: #757575;
+        margin: 40px 0px 40px 0px;
     }
 
     @media all and (max-width: 575px) {
-        .logo {
-            text-align: center;
-        }
-
         .content-1 h1 {
-            font-size: 28px;
+            text-align: left;
+            font-size: 24px;
         }
 
         .content-1 p {
+            text-align: left;
             font-size: 18px;
         }
 
