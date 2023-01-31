@@ -31,7 +31,7 @@
 </div>
 
 <footer>
-    <p>&#169; Genç Yazılımcılar</p>
+    <p>Genç Yazılımcılar - 2023</p>
 </footer>
 
 <style>
@@ -113,6 +113,7 @@
     }
 
     footer {
+        font-weight: bolder;
         color: #757575;
         margin: 40px 0px 40px 0px;
     }
