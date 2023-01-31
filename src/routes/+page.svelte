@@ -31,7 +31,7 @@
 </div>
 
 <footer>
-    <p>Genç Yazılımcılar - 2023</p>
+    <p>Genç Yazılımcılar</p>
 </footer>
 
 <style>
