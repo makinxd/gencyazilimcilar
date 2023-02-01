@@ -46,7 +46,7 @@
         background-color: rgb(11, 6, 12);
         color: white;
         font-family: 'Poppins', sans-serif;
-        max-width: 110ch;
+        max-width: 100ch;
         height: 100%;
         margin: 0 auto;
         padding-left: 25px;
@@ -74,7 +74,7 @@
     }
 
     .content-1 h1 {
-        font-size: 26px;
+        font-size: 22px;
         margin: 0px;
     }
 
@@ -84,7 +84,7 @@
     }
 
     .content-1 p {
-        font-size: 20px;
+        font-size: 18px;
         line-height: 1.6;
         color: rgba(247, 253, 255, 0.72);
         margin: 5px 0px 0px 0px;
@@ -113,7 +113,8 @@
 
     footer {
         font-weight: bolder;
-        color: #64686a;
+        font-size: 18px;
+        color: #5e585e;
         margin: 40px 0px 40px 0px;
     }
 
