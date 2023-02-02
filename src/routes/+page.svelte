@@ -121,7 +121,7 @@
     @media all and (max-width: 575px) {
         .content-1 h1 {
             text-align: left;
-            font-size: 24px;
+            font-size: 22px;
         }
 
         .content-1 p {
