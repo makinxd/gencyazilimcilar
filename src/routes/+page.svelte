@@ -86,8 +86,8 @@
     .content-1 p {
         font-size: 18px;
         line-height: 1.6;
-        color: rgba(230, 230, 230, 0.7);
-        margin: 5px 0px 0px 0px;
+        color: rgba(200, 200, 200, 0.7);
+        margin: 0px 0px 0px 0px;
     }
 
     .links {
@@ -102,8 +102,8 @@
         text-align: center;
         text-decoration: none;
         font-size: 16px;
-        border-radius: 12px;
-        padding: 10px 24px;
+        border-radius: 10px;
+        padding: 10px 14px;
         margin: 0px;
         transition: ease-in 0.1s;
     }
