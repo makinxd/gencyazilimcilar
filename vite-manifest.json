@@ -1,15 +1,7 @@
 {
   "src/routes/+page.css": {
-    "file": "_app/immutable/assets/_page-3e74aa55.css",
+    "file": "_app/immutable/assets/_page-d0cb8f38.css",
     "src": "src/routes/+page.css"
-  },
-  ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-6826fbab.js",
-    "src": ".svelte-kit/generated/nodes/2.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/+page.svelte"
-    ]
   },
   "__layout-da46b06b.js": {
     "file": "_app/immutable/chunks/_layout-da46b06b.js"
@@ -31,6 +23,14 @@
       "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
     ]
   },
+  ".svelte-kit/generated/nodes/2.js": {
+    "file": "_app/immutable/chunks/2-f83ef05e.js",
+    "src": ".svelte-kit/generated/nodes/2.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/+page.svelte"
+    ]
+  },
   "src/routes/+layout.js": {
     "file": "_app/immutable/modules/pages/_layout.js-9cbb603b.js",
     "src": "src/routes/+layout.js",
@@ -47,12 +47,6 @@
       "_index-553c9e68.js"
     ]
   },
-  "_singletons-9da986fe.js": {
-    "file": "_app/immutable/chunks/singletons-9da986fe.js",
-    "imports": [
-      "_index-553c9e68.js"
-    ]
-  },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
     "file": "_app/immutable/components/error.svelte-7d6f1238.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
@@ -62,22 +56,28 @@
       "_singletons-9da986fe.js"
     ]
   },
+  "_singletons-9da986fe.js": {
+    "file": "_app/immutable/chunks/singletons-9da986fe.js",
+    "imports": [
+      "_index-553c9e68.js"
+    ]
+  },
   "src/routes/+page.svelte": {
-    "file": "_app/immutable/components/pages/_page.svelte-af57cefd.js",
+    "file": "_app/immutable/components/pages/_page.svelte-e278fa61.js",
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index-553c9e68.js"
     ],
     "css": [
-      "_app/immutable/assets/_page-3e74aa55.css"
+      "_app/immutable/assets/_page-d0cb8f38.css"
     ]
   },
   "_index-553c9e68.js": {
     "file": "_app/immutable/chunks/index-553c9e68.js"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-3c992274.js",
+    "file": "_app/immutable/start-7e8b7dac.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
