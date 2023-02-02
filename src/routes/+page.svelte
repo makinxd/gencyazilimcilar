@@ -24,7 +24,7 @@
         <p>Genç Yazılımcılar bir topluluk projesidir. Amacımız ülkemizde bulunan yazılım ve bilgisayar alanında yüksek bilgiye sahip olan gençleri bir araya getirmektir.</p>
         <br>
         <h3>Neden Katılmalıyım?</h3>
-        <p>Topluluğumuza ait bazı özellikler bulunmaktadır. Etkinlikler, çekilişler, yarışmalar, sosyal medya hesaplarımızdan yaptığınız projelerin yayını, çeşitli sponsorluklar ve sohbet ortamı, bu özelliklerden bazılarıdır. Bize katılarak; tüm bu özelliklere erişim sağlıyor, Türkiye'nin ilk, gençler için gençler tarafından kurulmuş yazılım topluluğuna destek veriyorsunuz.</p>
+        <p>Etkinlikler, çekilişler, yarışmalar, sosyal medya hesaplarımızdan yaptığınız projelerin yayını, çeşitli sponsorluklar ve sohbet ortamı, topluluğumuza ait özelliklerden bazılarıdır. Bize katılarak; tüm bu özelliklere erişim sağlıyor, Türkiye'nin ilk, gençler için gençler tarafından kurulmuş yazılım topluluğuna destek veriyorsunuz.</p>
     </div>
     <br>
 </div>
@@ -43,10 +43,10 @@
     }
 
     :global(body) {
-        background-color: rgb(11, 6, 12);
+        background-color: rgb(14, 8, 15);
         color: white;
         font-family: 'Poppins', sans-serif;
-        max-width: 100ch;
+        max-width: 80ch;
         height: 100%;
         margin: 0 auto;
         padding-left: 25px;
@@ -86,7 +86,7 @@
     .content-1 p {
         font-size: 18px;
         line-height: 1.6;
-        color: rgba(247, 253, 255, 0.72);
+        color: rgba(230, 230, 230, 0.7);
         margin: 5px 0px 0px 0px;
     }
 
@@ -113,8 +113,8 @@
 
     footer {
         font-weight: bolder;
-        font-size: 18px;
-        color: #5e585e;
+        font-size: 16px;
+        color: #535353;
         margin: 40px 0px 40px 0px;
     }
 
