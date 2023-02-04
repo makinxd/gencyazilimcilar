@@ -15,7 +15,7 @@
         <h1>Genç geliştiriciler için genç bir topluluk.</h1>
         <p>Yeni nesil geliştiriciler için kurulmuş, birlikte gelişen bir yazılımcı topluluğuyuz.</p>
         <div class="links">
-            <a href="https://discord.gg/kEYXgAZndV" target="_blank" rel="noreferrer nofollow" class="button">Discord'da aramıza katıl &#8250;</a>
+            <a href="https://discord.gg/kEYXgAZndV" target="_blank" rel="noreferrer nofollow" class="button">Discord'da aramıza katıl &#129066;</a>
         </div>
     </div>
     
@@ -30,7 +30,7 @@
 </div>
 
 <footer>
-    <p>Genç Yazılımcılar</p>
+    <p>Genç Yazılımcılar, 2023</p>
 </footer>
 
 <style>
@@ -43,14 +43,14 @@
     }
 
     :global(body) {
-        background-color: rgb(14, 8, 15);
+        background-color: rgb(19, 16, 22);
         color: white;
         font-family: 'Poppins', sans-serif;
-        max-width: 80ch;
+        max-width: 95ch;
         height: 100%;
         margin: 0 auto;
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 30px;
+        padding-right: 30px;
 	}
 
     .logo {
@@ -74,11 +74,13 @@
     }
 
     .content-1 h1 {
-        font-size: 22px;
+        font-weight: bolder;
+        font-size: 26px;
         margin: 0px;
     }
 
     .content-1 h3 {
+        font-weight: lighter;
         font-size: 22px;
         margin: 0px;
     }
@@ -102,26 +104,31 @@
         text-align: center;
         text-decoration: none;
         font-size: 16px;
-        border-radius: 10px;
-        padding: 10px 14px;
+        border-radius: 20px;
+        padding: 10px 18px;
         margin: 0px;
         transition: ease-in 0.1s;
     }
     .button:hover {
-        opacity: 0.8;
+        box-shadow: inset 0px 0px 10px #573450;
     }
 
     footer {
-        font-weight: bolder;
+        font-style: italic;
+        text-align: center;
         font-size: 16px;
-        color: #535353;
-        margin: 40px 0px 40px 0px;
+        color: rgba(200, 200, 200, 0.35);
+        margin: 20px 0px 30px 0px;
     }
 
     @media all and (max-width: 575px) {
         .content-1 h1 {
             text-align: left;
-            font-size: 22px;
+            font-size: 24px;
+        }
+        .content-1 h3 {
+            text-align: left;
+            font-size: 20px;
         }
 
         .content-1 p {
