@@ -15,7 +15,7 @@
         <h1>Genç geliştiriciler için genç bir topluluk.</h1>
         <p>Yeni nesil geliştiriciler için kurulmuş, birlikte gelişen bir yazılımcı topluluğuyuz.</p>
         <div class="links">
-            <a href="https://discord.gg/kEYXgAZndV" target="_blank" rel="noreferrer nofollow" class="button">Discord'da aramıza katıl &#129066;</a>
+            <a href="https://discord.gg/kEYXgAZndV" target="_blank" rel="noreferrer nofollow" class="button">Discord'da aramıza katıl &#8250;</a>
         </div>
     </div>
     
