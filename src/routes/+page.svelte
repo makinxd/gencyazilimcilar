@@ -30,7 +30,7 @@
 </div>
 
 <footer>
-    <p>Genç Yazılımcılar, 2023</p>
+    <p>Genç Yazılımcılar &#169; 2023</p>
 </footer>
 
 <style>
@@ -43,10 +43,10 @@
     }
 
     :global(body) {
-        background-color: rgb(19, 16, 22);
+        background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgb(19, 16, 21) 0%, rgb(18, 15, 19) 100%);
         color: white;
         font-family: 'Poppins', sans-serif;
-        max-width: 95ch;
+        max-width: 94ch;
         height: 100%;
         margin: 0 auto;
         padding-left: 30px;
@@ -80,7 +80,7 @@
     }
 
     .content-1 h3 {
-        font-weight: lighter;
+        font-weight: bold;
         font-size: 22px;
         margin: 0px;
     }
@@ -88,8 +88,8 @@
     .content-1 p {
         font-size: 18px;
         line-height: 1.6;
-        color: rgba(200, 200, 200, 0.7);
-        margin: 0px 0px 0px 0px;
+        color: rgba(200, 200, 200, 0.6);
+        margin: 0px;
     }
 
     .links {
@@ -98,33 +98,33 @@
     }
     
     .button {
-        background: linear-gradient(215deg, rgb(255, 194, 28) 0%, rgb(241, 20, 237) 100%);
+        background: linear-gradient(215deg, rgb(255, 201, 25) 0%, rgb(235, 10, 232) 100%);
         color: white;
         font-weight: bolder;
         text-align: center;
         text-decoration: none;
         font-size: 16px;
         border-radius: 20px;
-        padding: 10px 18px;
+        padding: 10px 22px;
         margin: 0px;
         transition: ease-in 0.1s;
     }
     .button:hover {
-        box-shadow: inset 0px 0px 10px #573450;
+        padding: 10px 26px;
     }
 
     footer {
         font-style: italic;
-        text-align: center;
+        text-align: left;
         font-size: 16px;
-        color: rgba(200, 200, 200, 0.35);
-        margin: 20px 0px 30px 0px;
+        color: rgba(200, 200, 200, 0.4);
+        margin: 30px 0px 30px 0px;
     }
 
     @media all and (max-width: 575px) {
         .content-1 h1 {
             text-align: left;
-            font-size: 24px;
+            font-size: 26px;
         }
         .content-1 h3 {
             text-align: left;
