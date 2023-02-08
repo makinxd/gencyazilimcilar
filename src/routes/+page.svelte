@@ -18,7 +18,7 @@
         </div>
     </div>
     
-    <div class="content-1" style="text-align: left; height: 100%; margin-top: 25px; background-color: rgba(255, 255, 255, 0.04); border-radius: 15px; padding: 20px;">
+    <div class="content-1" style="text-align: left; height: 100%; margin-top: 25px; background: rgba(255, 235, 255, 0.045); border-radius: 18px; padding: 20px; box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 12px;">
         <h3>Genç Yazılımcılar Kimdir?</h3>
         <p>Genç Yazılımcılar bir topluluk projesidir. Amacımız ülkemizde bulunan yazılım ve bilgisayar alanında yüksek bilgiye sahip olan gençleri bir araya getirmektir.</p>
         <br>
@@ -38,8 +38,8 @@
     }
 
     :global(::selection) {
-        color: #febbff;
-        background-color: #1c191c;
+        color: #ffffff;
+        background-color: #2b192b;
     }
 
     :global(body) {
@@ -68,7 +68,7 @@
         justify-content: center;
         flex-direction: column;
         font-weight: lighter;
-        gap: 8px;
+        gap: 10px;
         height: 100vh;
     }
 
@@ -87,7 +87,7 @@
     .content-1 p {
         font-size: 20px;
         line-height: 1.7;
-        color: rgba(227, 237, 241, 0.6);
+        color: rgba(227, 237, 241, 0.65);
         margin: 0px;
     }
 
@@ -102,15 +102,15 @@
         text-align: center;
         text-decoration: none;
         font-size: 18px;
-        border-radius: 4px 16px 4px 16px;
-        padding: 9px 34px;
+        border-radius: 2px 18px 2px 18px;
+        padding: 9px 36px;
         margin: 0px;
         transition: ease-in-out 0.2s;
     }
 
     .button:hover {
-        opacity: 0.8;
-        padding: 9px 36px;
+        padding: 9px 40px;
+        opacity: 0.7;
     }
 
     @media all and (max-width: 575px) {
