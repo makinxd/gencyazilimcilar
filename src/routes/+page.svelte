@@ -2,7 +2,6 @@
 	<title>Genç Yazılımcılar</title>
     <meta name="description" content="Genç yazılımcılar için genç bir topluluk.">
     <meta name="author" content="Genç Yazılımcılar">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
 </svelte:head>
 
 <div class="logo">
