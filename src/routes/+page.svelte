@@ -2,7 +2,7 @@
 	<title>Genç Yazılımcılar</title>
     <meta name="description" content="Genç yazılımcılar için genç bir topluluk.">
     <meta name="author" content="Genç Yazılımcılar">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
 </svelte:head>
 
 <div class="logo">
@@ -41,7 +41,7 @@
     :global(body) {
         background: radial-gradient(circle, rgb(39, 35, 39) 0%, rgb(24, 29, 41) 100%);
         color: white;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         max-width: 105ch;
         height: 100%;
         margin: 0 auto;
@@ -49,8 +49,6 @@
 	}
     
     .logo {
-        font-weight: lighter;
-        letter-spacing: 1px;
         font-size: 18px;
         position: relative;
         position: absolute;
@@ -65,27 +63,28 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        gap: 10px;
+        gap: 8px;
         height: 100vh;
     }
 
     .content-1 h1 {
         font-weight: lighter;
-        font-size: 26px;
+        font-size: 28px;
         margin: 0px;
     }
 
     .content-1 h3 {
         font-weight: lighter;
-        letter-spacing: 1px;
         font-size: 22px;
         margin: 0px;
+        text-decoration: #363636 1px underline;
+        text-underline-offset: 8px;
     }
 
     .content-1 p {
-        font-size: 18px;
-        line-height: 1.8;
-        color: rgba(255, 255, 255, 0.6);
+        font-size: 20px;
+        line-height: 1.7;
+        color: rgba(227, 237, 241, 0.6);
         margin: 0px;
     }
 
@@ -97,19 +96,18 @@
     .button {
         background: linear-gradient(215deg, rgb(255, 189, 22) 0%, rgb(230, 14, 226) 100%);
         color: white;
-        font-weight: bolder;
         text-align: center;
         text-decoration: none;
         font-size: 16px;
         border-radius: 5px 20px 5px 20px;
-        padding: 9px 24px;
+        padding: 9px 30px;
         margin: 0px;
         transition: ease-in-out 0.2s;
     }
 
     .button:hover {
         opacity: 0.8;
-        padding: 9px 28px;
+        padding: 9px 34px;
     }
 
     @media all and (max-width: 575px) {
