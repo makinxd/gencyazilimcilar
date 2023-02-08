@@ -18,7 +18,7 @@
         </div>
     </div>
     
-    <div class="content-1" style="text-align: left; height: 100%; margin-top: 25px; background: rgba(255, 235, 255, 0.045); border-radius: 18px; padding: 20px; box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 12px;">
+    <div class="content-1" style="text-align: left; height: 100%; margin-top: 25px; background: rgba(255, 235, 255, 0.04); border-radius: 18px; padding: 20px;">
         <h3>Genç Yazılımcılar Kimdir?</h3>
         <p>Genç Yazılımcılar bir topluluk projesidir. Amacımız ülkemizde bulunan yazılım ve bilgisayar alanında yüksek bilgiye sahip olan gençleri bir araya getirmektir.</p>
         <br>
@@ -39,7 +39,7 @@
 
     :global(::selection) {
         color: #ffffff;
-        background-color: #2b192b;
+        background-color: #181718;
     }
 
     :global(body) {
@@ -102,7 +102,7 @@
         text-align: center;
         text-decoration: none;
         font-size: 18px;
-        border-radius: 2px 18px 2px 18px;
+        border-radius: 4px 18px 4px 18px;
         padding: 9px 36px;
         margin: 0px;
         transition: ease-in-out 0.2s;
