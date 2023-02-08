@@ -1,6 +1,6 @@
 {
   "src/routes/+page.css": {
-    "file": "_app/immutable/assets/_page-b7630a90.css",
+    "file": "_app/immutable/assets/_page-0c45bf05.css",
     "src": "src/routes/+page.css"
   },
   ".svelte-kit/generated/nodes/1.js": {
@@ -19,8 +19,17 @@
       "__layout-da46b06b.js"
     ]
   },
+  ".svelte-kit/generated/nodes/0.js": {
+    "file": "_app/immutable/chunks/0-e313d283.js",
+    "src": ".svelte-kit/generated/nodes/0.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__layout-da46b06b.js",
+      "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte"
+    ]
+  },
   ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-03582f67.js",
+    "file": "_app/immutable/chunks/2-9240f85b.js",
     "src": ".svelte-kit/generated/nodes/2.js",
     "isDynamicEntry": true,
     "imports": [
@@ -36,15 +45,6 @@
     "isEntry": true,
     "imports": [
       "_index-553c9e68.js"
-    ]
-  },
-  ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-e313d283.js",
-    "src": ".svelte-kit/generated/nodes/0.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "__layout-da46b06b.js",
-      "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte"
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
@@ -63,21 +63,21 @@
     ]
   },
   "src/routes/+page.svelte": {
-    "file": "_app/immutable/components/pages/_page.svelte-0226dc42.js",
+    "file": "_app/immutable/components/pages/_page.svelte-42ae28a3.js",
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index-553c9e68.js"
     ],
     "css": [
-      "_app/immutable/assets/_page-b7630a90.css"
+      "_app/immutable/assets/_page-0c45bf05.css"
     ]
   },
   "_index-553c9e68.js": {
     "file": "_app/immutable/chunks/index-553c9e68.js"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-d04fbfe7.js",
+    "file": "_app/immutable/start-6b5659dc.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
