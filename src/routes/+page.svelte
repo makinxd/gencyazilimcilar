@@ -41,16 +41,16 @@
         background: radial-gradient(circle, rgb(39, 35, 39) 0%, rgb(24, 29, 41) 100%);
         color: white;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        max-width: 105ch;
+        max-width: 115ch;
         height: 100%;
         margin: 0 auto;
         padding: 0px 20px 0px 20px;
 	}
     
     .logo {
-        font-size: 18px;
-        position: relative;
+        font-size: 22px;
         position: absolute;
+        font-weight: lighter;
         margin-top: calc(var(--spacing-unit) * 7);
     }
 
@@ -62,6 +62,7 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+        font-weight: lighter;
         gap: 8px;
         height: 100vh;
     }
@@ -76,8 +77,6 @@
         font-weight: lighter;
         font-size: 22px;
         margin: 0px;
-        text-decoration: #363636 1px underline;
-        text-underline-offset: 8px;
     }
 
     .content-1 p {
@@ -97,16 +96,16 @@
         color: white;
         text-align: center;
         text-decoration: none;
-        font-size: 16px;
-        border-radius: 5px 20px 5px 20px;
-        padding: 9px 30px;
+        font-size: 18px;
+        border-radius: 4px 16px 4px 16px;
+        padding: 8px 32px;
         margin: 0px;
         transition: ease-in-out 0.2s;
     }
 
     .button:hover {
         opacity: 0.8;
-        padding: 9px 34px;
+        padding: 8px 34px;
     }
 
     @media all and (max-width: 575px) {
