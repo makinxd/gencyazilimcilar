@@ -38,10 +38,10 @@
     }
 
     :global(body) {
-        background: radial-gradient(circle, rgb(39, 35, 39) 0%, rgb(24, 29, 41) 100%);
+        background: radial-gradient(circle, rgb(39, 35, 39) 0%, rgb(21, 25, 35) 100%);
         color: white;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        max-width: 115ch;
+        max-width: 118ch;
         height: 100%;
         margin: 0 auto;
         padding: 0px 20px 0px 20px;
@@ -98,14 +98,14 @@
         text-decoration: none;
         font-size: 18px;
         border-radius: 4px 16px 4px 16px;
-        padding: 8px 32px;
+        padding: 8px 34px;
         margin: 0px;
         transition: ease-in-out 0.2s;
     }
 
     .button:hover {
         opacity: 0.8;
-        padding: 8px 34px;
+        padding: 8px 36px;
     }
 
     @media all and (max-width: 575px) {
@@ -123,7 +123,6 @@
 
         .button {
             display: block;
-            padding: 10px 24px;
             margin: 18px 0px 0px 0px;
         }
 
