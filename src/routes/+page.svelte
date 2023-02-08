@@ -19,7 +19,7 @@
         </div>
     </div>
     
-    <div class="content-1" style="text-align: left; height: 100%;">
+    <div class="content-1" style="text-align: left; height: 100%; margin-top: 75px;">
         <h3>Genç Yazılımcılar Kimdir?</h3>
         <p>Genç Yazılımcılar bir topluluk projesidir. Amacımız ülkemizde bulunan yazılım ve bilgisayar alanında yüksek bilgiye sahip olan gençleri bir araya getirmektir.</p>
         <br>
@@ -43,22 +43,22 @@
     }
 
     :global(body) {
-        background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgb(19, 16, 21) 0%, rgb(18, 15, 19) 100%);
+        background: radial-gradient(circle, rgba(42,38,42,1) 0%, rgba(26,32,45,1) 100%);
         color: white;
         font-family: 'Poppins', sans-serif;
-        max-width: 94ch;
+        max-width: 105ch;
         height: 100%;
         margin: 0 auto;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 25px;
+        padding-right: 25px;
 	}
+    
 
     .logo {
         font-size: 18px;
-        font-weight: bolder;
         position: relative;
         position: absolute;
-        margin-top: calc(var(--spacing-unit) * 7);
+        margin-top: calc(var(--spacing-unit) * 6);
     }
 
     img {
@@ -69,26 +69,28 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        gap: 8px;
+        gap: 10px;
         height: 100vh;
     }
 
     .content-1 h1 {
-        font-weight: bolder;
+        font-weight: lighter;
+        letter-spacing: 1px;
         font-size: 26px;
         margin: 0px;
     }
 
     .content-1 h3 {
-        font-weight: bold;
+        font-weight: lighter;
+        letter-spacing: 1px;
         font-size: 22px;
         margin: 0px;
     }
 
     .content-1 p {
         font-size: 18px;
-        line-height: 1.6;
-        color: rgba(200, 200, 200, 0.6);
+        line-height: 1.8;
+        color: rgba(255, 255, 255, 0.55);
         margin: 0px;
     }
 
@@ -98,37 +100,37 @@
     }
     
     .button {
-        background: linear-gradient(215deg, rgb(255, 201, 25) 0%, rgb(235, 10, 232) 100%);
+        background: linear-gradient(215deg, rgb(255, 192, 33) 0%, rgb(230, 14, 226) 100%);
         color: white;
         font-weight: bolder;
         text-align: center;
         text-decoration: none;
         font-size: 16px;
-        border-radius: 20px;
-        padding: 10px 22px;
+        border-radius: 5px 20px 5px 20px;
+        padding: 9px 24px;
         margin: 0px;
-        transition: ease-in 0.1s;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 12px, rgba(25, 17, 26, 0.1) 0px 8px 24px, rgba(25, 17, 26, 0.1) 0px 16px 52px;
+        transition: ease-in 0.25s;
     }
+
     .button:hover {
-        padding: 10px 26px;
+        padding: 9px 28px;
     }
 
     footer {
-        font-style: italic;
+        font-weight: lighter;
         text-align: left;
         font-size: 16px;
-        color: rgba(200, 200, 200, 0.4);
-        margin: 30px 0px 30px 0px;
+        color: rgba(255, 255, 255, 0.3);
+        padding: 30px 0px 30px 0px;
     }
 
     @media all and (max-width: 575px) {
         .content-1 h1 {
             text-align: left;
-            font-size: 26px;
         }
         .content-1 h3 {
             text-align: left;
-            font-size: 20px;
         }
 
         .content-1 p {
@@ -145,5 +147,5 @@
         .links {
             padding: 0;
         }
-    }  
+    }
 </style>
