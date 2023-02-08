@@ -37,8 +37,13 @@
         display: none;
     }
 
+    :global(::selection) {
+        color: pink;
+        background-color: rgb(68, 60, 68);
+    }
+
     :global(body) {
-        background: radial-gradient(circle, rgb(39, 35, 39) 0%, rgb(21, 25, 35) 100%);
+        background: radial-gradient(circle, rgb(37, 33, 37) 0%, rgb(20, 24, 34) 100%);
         color: white;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         max-width: 118ch;
