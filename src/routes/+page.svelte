@@ -2,6 +2,7 @@
 	<title>Genç Yazılımcılar</title>
     <meta name="description" content="Genç yazılımcılar için genç bir topluluk.">
     <meta name="author" content="Genç Yazılımcılar">
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap" rel="stylesheet">
 </svelte:head>
 
 <div class="logo">
@@ -18,7 +19,7 @@
         </div>
     </div>
     
-    <div class="content-1" style="text-align: left; height: 100%; margin-top: 25px; background: rgba(255, 235, 255, 0.04); border-radius: 18px; padding: 20px;">
+    <div class="content-1" style="text-align: left; height: 100%; margin-top: 25px; background: rgba(255, 235, 255, 0.04); border-radius: 18px; padding: 18px;">
         <h3>Genç Yazılımcılar Kimdir?</h3>
         <p>Genç Yazılımcılar bir topluluk projesidir. Amacımız ülkemizde bulunan yazılım ve bilgisayar alanında yüksek bilgiye sahip olan gençleri bir araya getirmektir.</p>
         <br>
@@ -45,11 +46,11 @@
     :global(body) {
         background: radial-gradient(circle, rgb(39, 32, 39) 0%, rgb(18, 23, 33) 100%);
         color: white;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: 'Signika', sans-serif;
         max-width: 118ch;
         height: 100%;
         margin: 0 auto;
-        padding: 0px 20px 0px 20px;
+        padding: 0px 18px 0px 18px;
 	}
     
     .logo {
@@ -87,7 +88,7 @@
     .content-1 p {
         font-size: 20px;
         line-height: 1.7;
-        color: rgba(227, 237, 241, 0.65);
+        color: rgba(227, 237, 241, 0.55);
         margin: 0px;
     }
 
@@ -103,13 +104,13 @@
         text-decoration: none;
         font-size: 18px;
         border-radius: 4px 18px 4px 18px;
-        padding: 9px 36px;
+        padding: 10px 36px;
         margin: 0px;
         transition: ease-in-out 0.2s;
     }
 
     .button:hover {
-        padding: 9px 40px;
+        padding: 10px 40px;
         opacity: 0.7;
     }
 
