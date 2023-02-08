@@ -19,19 +19,15 @@
         </div>
     </div>
     
-    <div class="content-1" style="text-align: left; height: 100%; margin-top: 75px;">
+    <div class="content-1" style="text-align: left; height: 100%; margin-top: 25px; background-color: rgba(255, 255, 255, 0.01); border-radius: 15px; padding: 20px; border: 1px solid #505050;">
         <h3>Genç Yazılımcılar Kimdir?</h3>
         <p>Genç Yazılımcılar bir topluluk projesidir. Amacımız ülkemizde bulunan yazılım ve bilgisayar alanında yüksek bilgiye sahip olan gençleri bir araya getirmektir.</p>
         <br>
         <h3>Neden Katılmalıyım?</h3>
         <p>Etkinlikler, çekilişler, yarışmalar, sosyal medya hesaplarımızdan yaptığınız projelerin yayını, çeşitli sponsorluklar ve sohbet ortamı, topluluğumuza ait özelliklerden bazılarıdır. Bize katılarak; tüm bu özelliklere erişim sağlıyor, Türkiye'nin ilk, gençler için gençler tarafından kurulmuş yazılım topluluğuna destek veriyorsunuz.</p>
     </div>
-    <br>
 </div>
-
-<footer>
-    <p>Genç Yazılımcılar &#169; 2023</p>
-</footer>
+<br>
 
 <style>
     :global(:root) {
@@ -43,22 +39,22 @@
     }
 
     :global(body) {
-        background: radial-gradient(circle, rgba(42,38,42,1) 0%, rgba(26,32,45,1) 100%);
+        background: radial-gradient(circle, rgb(39, 35, 39) 0%, rgb(24, 29, 41) 100%);
         color: white;
         font-family: 'Poppins', sans-serif;
         max-width: 105ch;
         height: 100%;
         margin: 0 auto;
-        padding-left: 25px;
-        padding-right: 25px;
+        padding: 0px 22px 0px 22px;
 	}
     
-
     .logo {
+        font-weight: lighter;
+        letter-spacing: 1px;
         font-size: 18px;
         position: relative;
         position: absolute;
-        margin-top: calc(var(--spacing-unit) * 6);
+        margin-top: calc(var(--spacing-unit) * 7);
     }
 
     img {
@@ -75,7 +71,6 @@
 
     .content-1 h1 {
         font-weight: lighter;
-        letter-spacing: 1px;
         font-size: 26px;
         margin: 0px;
     }
@@ -90,7 +85,7 @@
     .content-1 p {
         font-size: 18px;
         line-height: 1.8;
-        color: rgba(255, 255, 255, 0.55);
+        color: rgba(255, 255, 255, 0.6);
         margin: 0px;
     }
 
@@ -100,7 +95,7 @@
     }
     
     .button {
-        background: linear-gradient(215deg, rgb(255, 192, 33) 0%, rgb(230, 14, 226) 100%);
+        background: linear-gradient(215deg, rgb(255, 189, 22) 0%, rgb(230, 14, 226) 100%);
         color: white;
         font-weight: bolder;
         text-align: center;
@@ -109,20 +104,12 @@
         border-radius: 5px 20px 5px 20px;
         padding: 9px 24px;
         margin: 0px;
-        box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 12px, rgba(25, 17, 26, 0.1) 0px 8px 24px, rgba(25, 17, 26, 0.1) 0px 16px 52px;
-        transition: ease-in 0.25s;
+        transition: ease-in-out 0.2s;
     }
 
     .button:hover {
+        opacity: 0.8;
         padding: 9px 28px;
-    }
-
-    footer {
-        font-weight: lighter;
-        text-align: left;
-        font-size: 16px;
-        color: rgba(255, 255, 255, 0.3);
-        padding: 30px 0px 30px 0px;
     }
 
     @media all and (max-width: 575px) {
