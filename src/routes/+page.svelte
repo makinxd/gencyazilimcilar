@@ -2,7 +2,7 @@
 	<title>Genç Yazılımcılar</title>
     <meta name="description" content="Genç yazılımcılar için genç bir topluluk.">
     <meta name="author" content="Genç Yazılımcılar">
-    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 </svelte:head>
 
 <div class="logo">
@@ -19,7 +19,7 @@
         </div>
     </div>
     
-    <div class="content-1" style="text-align: left; height: 100%; margin-top: 25px; border-radius: 18px; padding: 20px;">
+    <div class="content-1" style="text-align: left; height: 100%; margin: 25px 0px 25px 0px; padding: 18px;">
         <h3>Genç Yazılımcılar Kimdir?</h3>
         <p>Genç Yazılımcılar bir topluluk projesidir. Amacımız ülkemizde bulunan yazılım ve bilgisayar alanında yüksek bilgiye sahip olan gençleri bir araya getirmektir.</p>
         <br>
@@ -40,13 +40,13 @@
 
     :global(::selection) {
         color: #ffffff;
-        background-color: #21214f;
+        background-color: #272727;
     }
 
     :global(body) {
-        background: radial-gradient(circle, rgb(34, 27, 34) 0%, rgb(19, 25, 33) 100%);
+        background: radial-gradient(circle, rgb(33, 27, 33) 0%, rgb(17, 22, 29) 100%);
         color: white;
-        font-family: 'Signika', sans-serif;
+        font-family: 'Roboto', sans-serif;
         max-width: 118ch;
         height: 100%;
         margin: 0 auto;
@@ -56,7 +56,6 @@
     .logo {
         font-size: 22px;
         position: absolute;
-        font-weight: lighter;
         margin-top: calc(var(--spacing-unit) * 7);
     }
 
@@ -74,13 +73,13 @@
     }
 
     .content-1 h1 {
-        font-weight: lighter;
+        font-weight: 500;
         font-size: 28px;
         margin: 0px;
     }
 
     .content-1 h3 {
-        font-weight: lighter;
+        font-weight: 500;
         font-size: 22px;
         margin: 0px;
     }
@@ -102,15 +101,16 @@
         color: white;
         text-align: center;
         text-decoration: none;
-        font-size: 18px;
+        font-size: 16px;
+        font-weight: 500;
         border-radius: 4px 18px 4px 18px;
-        padding: 10px 36px;
+        padding: 10px 38px;
         margin: 0px;
         transition: ease-in-out 0.2s;
     }
 
     .button:hover {
-        padding: 10px 40px;
+        padding: 10px 42px;
         opacity: 0.7;
     }
 
