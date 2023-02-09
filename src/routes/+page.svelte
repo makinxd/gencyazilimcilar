@@ -44,7 +44,7 @@
     }
 
     :global(body) {
-        background: radial-gradient(circle, rgb(34, 27, 34) 0%, rgb(17, 24, 34) 100%);
+        background: radial-gradient(circle, rgb(34, 27, 34) 0%, rgb(19, 25, 33) 100%);
         color: white;
         font-family: 'Signika', sans-serif;
         max-width: 118ch;
