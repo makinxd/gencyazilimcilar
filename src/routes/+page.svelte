@@ -18,16 +18,7 @@
             <a href="https://discord.gg/kEYXgAZndV" target="_blank" rel="noreferrer nofollow" class="button">Discord'da aramıza katıl &#8250;</a>
         </div>
     </div>
-    
-    <div class="content-1" style="text-align: left; height: 100%; margin: 25px 0px 25px 0px; padding: 18px;">
-        <h3>Genç Yazılımcılar Kimdir?</h3>
-        <p>Genç Yazılımcılar bir topluluk projesidir. Amacımız ülkemizde bulunan yazılım ve bilgisayar alanında yüksek bilgiye sahip olan gençleri bir araya getirmektir.</p>
-        <br>
-        <h3>Neden Katılmalıyım?</h3>
-        <p>Etkinlikler, çekilişler, yarışmalar, sosyal medya hesaplarımızdan yaptığınız projelerin yayını, çeşitli sponsorluklar ve sohbet ortamı, topluluğumuza ait özelliklerden bazılarıdır. Bize katılarak; tüm bu özelliklere erişim sağlıyor, Türkiye'nin ilk, gençler için gençler tarafından kurulmuş yazılım topluluğuna destek veriyorsunuz.</p>
-    </div>
 </div>
-<br>
 
 <style>
     :global(:root) {
@@ -44,13 +35,13 @@
     }
 
     :global(body) {
-        background: radial-gradient(circle, rgb(33, 27, 33) 0%, rgb(17, 22, 29) 100%);
+        background: radial-gradient(circle, rgb(33, 27, 33) 0%, rgb(17, 22, 27) 100%);
         color: white;
         font-family: 'Roboto', sans-serif;
-        max-width: 118ch;
+        max-width: 115ch;
         height: 100%;
         margin: 0 auto;
-        padding: 0px 20px 0px 20px;
+        padding: 0px 30px 0px 30px;
 	}
     
     .logo {
@@ -74,13 +65,7 @@
 
     .content-1 h1 {
         font-weight: 500;
-        font-size: 28px;
-        margin: 0px;
-    }
-
-    .content-1 h3 {
-        font-weight: 500;
-        font-size: 22px;
+        font-size: 26px;
         margin: 0px;
     }
 
@@ -104,21 +89,18 @@
         font-size: 16px;
         font-weight: 500;
         border-radius: 4px 18px 4px 18px;
-        padding: 10px 38px;
+        padding: 10px 40px;
         margin: 0px;
         transition: ease-in-out 0.2s;
     }
 
     .button:hover {
-        padding: 10px 42px;
+        padding: 10px 44px;
         opacity: 0.7;
     }
 
     @media all and (max-width: 575px) {
         .content-1 h1 {
-            text-align: left;
-        }
-        .content-1 h3 {
             text-align: left;
         }
 
@@ -129,7 +111,7 @@
 
         .button {
             display: block;
-            margin: 18px 0px 0px 0px;
+            margin: 14px 0px 0px 0px;
         }
 
         .links {
