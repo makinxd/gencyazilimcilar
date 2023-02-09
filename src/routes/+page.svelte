@@ -19,7 +19,7 @@
         </div>
     </div>
     
-    <div class="content-1" style="text-align: left; height: 100%; margin-top: 25px; background: rgba(0, 0, 0, 0.15); border-radius: 18px; padding: 20px;">
+    <div class="content-1" style="text-align: left; height: 100%; margin-top: 25px; border-radius: 18px; padding: 20px;">
         <h3>Genç Yazılımcılar Kimdir?</h3>
         <p>Genç Yazılımcılar bir topluluk projesidir. Amacımız ülkemizde bulunan yazılım ve bilgisayar alanında yüksek bilgiye sahip olan gençleri bir araya getirmektir.</p>
         <br>
