@@ -40,7 +40,7 @@
     }
 
     :global(body) {
-        background: radial-gradient(circle, rgb(30, 30, 30) 0%, rgb(21, 21, 21) 100%);
+        background: radial-gradient(circle, rgb(29, 28, 28) 0%, rgb(21, 20, 20) 100%);
         color: white;
         font-family: 'Roboto', sans-serif;
         max-width: 115ch;
@@ -87,21 +87,20 @@
     }
     
     .button {
-        background: linear-gradient(215deg, rgb(95, 95, 95) 0%,rgb(52, 52, 52) 100%);
+        background: linear-gradient(215deg, rgb(68, 67, 67) 0%,rgb(52, 46, 46) 100%);
         color: white;
         text-align: center;
         text-decoration: none;
         font-size: 16px;
         font-weight: 500;
         border-radius: 18px 5px 18px 5px;
-        padding: 11px 40px;
+        padding: 12px 40px;
         margin: 0px;
-        box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
         transition: ease-in-out 0.2s;
     }
 
     .button:hover {
-        padding: 11px 44px;
+        padding: 12px 44px;
         opacity: 0.75;
     }
 
