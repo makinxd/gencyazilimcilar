@@ -12,7 +12,7 @@
 <div class="logo">
     <img style="vertical-align: middle" src="images/logo/gyazilimcilarlogo.png" alt="logo"/>
     <span style="vertical-align: middle"> Genç Yazılımcılar</span>
-    <span style="vertical-align: middle"><Tr size="26"/></span>
+    <span style="vertical-align: middle">&nbsp;<Tr size="26"/></span>
 </div>
 
 <div class="container">
