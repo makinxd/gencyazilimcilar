@@ -45,7 +45,7 @@
 	}
     
     .logo {
-        font-size: 22px;
+        font-size: 20px;
         position: absolute;
         margin-top: calc(var(--spacing-unit) * 7);
     }
@@ -72,7 +72,7 @@
     .content-1 p {
         font-size: 20px;
         line-height: 1.7;
-        color: rgba(224, 232, 236, 0.5);
+        color: rgba(224, 232, 236, 0.6);
         margin: 0px;
     }
 
@@ -88,14 +88,14 @@
         text-decoration: none;
         font-size: 16px;
         font-weight: 500;
-        border-radius: 4px 18px 4px 18px;
-        padding: 10px 40px;
+        border-radius: 18px 3px 18px 3px;
+        padding: 12px 42px;
         margin: 0px;
         transition: ease-in-out 0.2s;
     }
 
     .button:hover {
-        padding: 10px 44px;
+        padding: 12px 46px;
         opacity: 0.7;
     }
 
@@ -111,7 +111,7 @@
 
         .button {
             display: block;
-            margin: 14px 0px 0px 0px;
+            margin: 10px 0px 0px 0px;
         }
 
         .links {
