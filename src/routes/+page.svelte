@@ -1,3 +1,7 @@
+<script>
+    import * as Icon from 'svelte-flag-icons';
+</script>
+
 <svelte:head>
 	<title>Genç Yazılımcılar</title>
     <meta name="description" content="Genç yazılımcılar için genç bir topluluk.">
@@ -8,6 +12,7 @@
 <div class="logo">
     <img style="vertical-align: middle" src="images/logo/gyazilimcilarlogo.png" alt="logo"/>
     <span style="vertical-align: middle"> Genç Yazılımcılar</span>
+    <span style="vertical-align: middle"><Icon.Tr size="26"/></span>
 </div>
 
 <div class="container">
@@ -35,7 +40,7 @@
     }
 
     :global(body) {
-        background: radial-gradient(circle, rgb(33, 27, 33) 0%, rgb(17, 22, 27) 100%);
+        background: radial-gradient(circle, rgb(30, 30, 30) 0%, rgb(21, 21, 21) 100%);
         color: white;
         font-family: 'Roboto', sans-serif;
         max-width: 115ch;
@@ -59,7 +64,7 @@
         justify-content: center;
         flex-direction: column;
         font-weight: lighter;
-        gap: 10px;
+        gap: 8px;
         height: 100vh;
     }
 
@@ -72,7 +77,7 @@
     .content-1 p {
         font-size: 20px;
         line-height: 1.7;
-        color: rgba(224, 232, 236, 0.6);
+        color: rgba(224, 232, 236, 0.7);
         margin: 0px;
     }
 
@@ -82,21 +87,22 @@
     }
     
     .button {
-        background: linear-gradient(215deg, rgb(255, 189, 22) 0%, rgb(230, 14, 226) 100%);
+        background: linear-gradient(215deg, rgb(95, 95, 95) 0%,rgb(52, 52, 52) 100%);
         color: white;
         text-align: center;
         text-decoration: none;
         font-size: 16px;
         font-weight: 500;
-        border-radius: 18px 3px 18px 3px;
-        padding: 12px 42px;
+        border-radius: 18px 5px 18px 5px;
+        padding: 11px 40px;
         margin: 0px;
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
         transition: ease-in-out 0.2s;
     }
 
     .button:hover {
-        padding: 12px 46px;
-        opacity: 0.7;
+        padding: 11px 44px;
+        opacity: 0.75;
     }
 
     @media all and (max-width: 575px) {
@@ -111,7 +117,7 @@
 
         .button {
             display: block;
-            margin: 10px 0px 0px 0px;
+            margin: 5px 0px 0px 0px;
         }
 
         .links {
