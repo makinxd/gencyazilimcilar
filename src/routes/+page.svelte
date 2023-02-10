@@ -40,7 +40,7 @@
     }
 
     :global(body) {
-        background: radial-gradient(circle, rgb(29, 28, 28) 0%, rgb(21, 21, 21) 100%);
+        background: radial-gradient(circle, rgb(33, 30, 30) 0%, rgb(19, 19, 19) 100%);
         color: white;
         font-family: 'Roboto', sans-serif;
         max-width: 115ch;
@@ -64,7 +64,7 @@
         justify-content: center;
         flex-direction: column;
         font-weight: lighter;
-        gap: 8px;
+        gap: 12px;
         height: 100vh;
     }
 
@@ -76,8 +76,7 @@
 
     .content-1 p {
         font-size: 20px;
-        line-height: 1.7;
-        color: rgba(224, 232, 236, 0.7);
+        color: rgba(224, 231, 236, 0.7);
         margin: 0px;
     }
 
@@ -87,7 +86,7 @@
     }
     
     .button {
-        background: linear-gradient(215deg, rgb(123, 123, 123) 0%,rgb(59, 53, 53) 100%);
+        background: linear-gradient(215deg, rgb(123, 123, 123) 0%,rgb(59, 56, 56) 100%);
         color: white;
         text-align: center;
         text-decoration: none;
