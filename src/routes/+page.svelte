@@ -10,7 +10,7 @@
 </svelte:head>
 
 <div class="logo">
-    <img style="vertical-align: middle" src="images/logo/gyazilimcilarlogo.png" alt="logo"/>
+    <img style="vertical-align: middle" src="images/logo/gencyazilimcilarlogo.png" alt="logo"/>
     <span style="vertical-align: middle"> Genç Yazılımcılar</span>
     <span style="vertical-align: middle">&nbsp;<Tr size="26"/></span>
 </div>
@@ -40,7 +40,7 @@
     }
 
     :global(body) {
-        background: radial-gradient(circle, rgb(33, 30, 30) 0%, rgb(19, 19, 19) 100%);
+        background: radial-gradient(circle, rgb(33, 27, 33) 0%, rgb(17, 22, 27) 100%);
         color: white;
         font-family: 'Roboto', sans-serif;
         max-width: 115ch;
@@ -86,7 +86,7 @@
     }
     
     .button {
-        background: linear-gradient(215deg, rgb(123, 123, 123) 0%,rgb(59, 56, 56) 100%);
+        background: linear-gradient(215deg, rgb(255, 173, 22) 0%,rgb(230, 14, 226) 100%);
         color: white;
         text-align: center;
         text-decoration: none;
