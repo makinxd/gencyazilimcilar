@@ -1,3 +1,3 @@
 Genç Yazılımcılar Topluluk Projesi Websitesi.
 
-www.gencyazilimcilar.com
+SvelteKit ile geliştirildi.
