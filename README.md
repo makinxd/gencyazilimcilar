@@ -1,3 +1,3 @@
-##Genç Yazılımcılar Topluluk Projesi Websitesi.
+Genç Yazılımcılar Topluluk Projesi Websitesi.
 
 SvelteKit ile geliştirildi.
