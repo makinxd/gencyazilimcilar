@@ -16,7 +16,7 @@
 <div class="container">
     <div class="content-1" style="text-align: left;">
         <h1>Genç geliştiriciler için genç bir topluluk.</h1>
-        <p>Genç Yazılımcılar 50'den fazla üyesiyle birlikte gelişen bir yazılımcı topluluğudur.</p>
+        <p>Genç Yazılımcılar, 50'den fazla üyesiyle birlikte gelişen bir yazılımcı topluluğudur.</p>
         <div class="links">
             <a href="https://discord.gg/kEYXgAZndV" target="_blank" rel="noreferrer nofollow" class="button">Discord'da bize katıl &rarr;</a>
             <a href="https://www.instagram.com/gyazilimcilar/" target="_blank" rel="noreferrer nofollow" class="button" style="background: none; box-shadow:0px 0px 0px 3px white inset;">Instagram'da bizi takip et</a>
