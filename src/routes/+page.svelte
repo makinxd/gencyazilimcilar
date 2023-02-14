@@ -1,26 +1,25 @@
-<script>
-    import {Tr} from 'svelte-flag-icons';
+<script lang="ts">
+    import Sparticles from '$lib/components/Sparticles.svelte';
 </script>
 
 <svelte:head>
 	<title>Genç Yazılımcılar</title>
     <meta name="description" content="Genç yazılımcılar için genç bir topluluk.">
     <meta name="author" content="Genç Yazılımcılar">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600&display=swap" rel="stylesheet">
 </svelte:head>
 
-<div class="logo">
-    <img style="vertical-align: middle" src="images/logo/gencyazilimcilarlogo.png" alt="logo"/>
-    <span style="vertical-align: middle"> Genç Yazılımcılar</span>
-    <span style="vertical-align: middle">&nbsp;<Tr size="26"/></span>
+<div class="particles-container">
+    <Sparticles></Sparticles>
 </div>
 
 <div class="container">
     <div class="content-1" style="text-align: left;">
         <h1>Genç geliştiriciler için genç bir topluluk.</h1>
-        <p>Yeni nesil geliştiriciler için kurulmuş, birlikte gelişen bir yazılımcı topluluğuyuz.</p>
+        <p>Genç Yazılımcılar 50'den fazla üyesiyle birlikte gelişen bir yazılımcı topluluğudur.</p>
         <div class="links">
-            <a href="https://discord.gg/kEYXgAZndV" target="_blank" rel="noreferrer nofollow" class="button">Discord'da aramıza katıl &#8250;</a>
+            <a href="https://discord.gg/kEYXgAZndV" target="_blank" rel="noreferrer nofollow" class="button">Discord'da bize katıl &rarr;</a>
+            <a href="https://www.instagram.com/gyazilimcilar/" target="_blank" rel="noreferrer nofollow" class="button" style="background: none; box-shadow:0px 0px 0px 3px white inset;">Instagram'da bizi takip et</a>
         </div>
     </div>
 </div>
@@ -35,28 +34,29 @@
     }
 
     :global(::selection) {
-        color: #ffffff;
-        background-color: #272727;
+        color: #000000;
+        background-color: #ffffff;
     }
 
     :global(body) {
-        background: radial-gradient(circle, rgb(33, 27, 33) 0%, rgb(17, 22, 27) 100%);
+        background-color: #14141a;
         color: white;
-        font-family: 'Roboto', sans-serif;
-        max-width: 115ch;
+        font-family: 'Exo 2', sans-serif;
+        max-width: 105ch;
         height: 100%;
         margin: 0 auto;
         padding: 0px 30px 0px 30px;
 	}
-    
-    .logo {
-        font-size: 20px;
-        position: absolute;
-        margin-top: calc(var(--spacing-unit) * 7);
-    }
 
-    img {
-        width: 32px;
+    .particles-container {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
     }
     
     .content-1 {
@@ -69,15 +69,17 @@
     }
 
     .content-1 h1 {
-        font-weight: 500;
+        font-weight: 600;
         font-size: 26px;
         margin: 0px;
+        line-height: 1.3;
     }
 
     .content-1 p {
         font-size: 20px;
-        color: rgba(224, 231, 236, 0.7);
+        color: #ffffff;
         margin: 0px;
+        line-height: 1.3;
     }
 
     .links {
@@ -86,21 +88,20 @@
     }
     
     .button {
-        background: linear-gradient(215deg, rgb(255, 173, 22) 0%,rgb(230, 14, 226) 100%);
+        background: linear-gradient(215deg, rgb(255, 162, 22) 0%,rgb(230, 14, 226) 100%);
         color: white;
         text-align: center;
         text-decoration: none;
         font-size: 16px;
-        font-weight: 500;
-        border-radius: 18px 5px 18px 5px;
-        padding: 10px 40px;
-        margin: 0px;
+        font-weight: 600;
+        border-radius: 8px;
+        padding: 10px 36px;
+        margin: 0px 8px 0px 0px;
         transition: ease-in-out 0.2s;
     }
 
     .button:hover {
-        padding: 10px 44px;
-        opacity: 0.75;
+        padding: 10px 42px;
     }
 
     @media all and (max-width: 575px) {
@@ -115,7 +116,7 @@
 
         .button {
             display: block;
-            margin: 5px 0px 0px 0px;
+            margin: 8px 0px 0px 0px;
         }
 
         .links {
