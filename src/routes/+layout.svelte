@@ -1,8 +1,8 @@
 <nav>
     <div class="logo">
-    <img style="vertical-align: middle" src="images/logo/gencyazilimcilarlogo.png" alt="logo"/>
-    <span style="vertical-align: middle"> Genç Yazılımcılar</span>
-</div>
+        <img style="vertical-align: middle" src="images/logo/gencyazilimcilarlogo.png" alt="logo"/>
+        <span style="vertical-align: middle"> Genç Yazılımcılar</span>
+    </div>
 </nav>
 
 <style>
