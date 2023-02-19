@@ -39,7 +39,7 @@
     }
 
     :global(body) {
-        background-color: #131317;
+        background-color: #151518;
         color: white;
         font-family: 'Exo 2', sans-serif;
         max-width: 105ch;
