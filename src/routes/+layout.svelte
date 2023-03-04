@@ -8,6 +8,7 @@
 <style>
     .logo {
         font-size: 20px;
+        color: #ffffff;
         position: absolute;
         margin-top: calc(var(--spacing-unit) * 7);
         font-weight: 600;
