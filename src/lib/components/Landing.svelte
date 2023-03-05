@@ -3,8 +3,8 @@
         <h1>Genç geliştiriciler için genç bir ortam.</h1>
         <p>Genç Yazılımcılar, 100'den fazla üyesiyle birlikte gelişen bir geliştirici topluluğudur.</p>
         <div class="links">
-            <a href="https://discord.gg/kEYXgAZndV" target="_blank" rel="noreferrer nofollow" class="button">Discord'da bize katıl &rarr;</a>
-            <a href="https://www.instagram.com/gyazilimcilar/" target="_blank" rel="noreferrer nofollow" class="button" style="background: transparent; box-shadow: inset 0px 0px 0px 2px white;">Instagram'da bizi takip et &rarr;</a>
+            <a href="https://discord.gg/kEYXgAZndV" target="_blank" rel="noreferrer nofollow" class="button">Discord'da bize katıl</a>
+            <a href="https://www.instagram.com/gyazilimcilar/" target="_blank" rel="noreferrer nofollow" class="button" style="background: transparent; box-shadow: inset 0px 0px 0px 2px white;">Instagram'da bizi takip et</a>
         </div>
     </div>
 </div>
@@ -15,21 +15,19 @@
         justify-content: center;
         flex-direction: column;
         font-weight: lighter;
-        gap: 12px;
         height: 100vh;
+        gap: 12px;
     }
 
     .content-1 h1 {
-        font-weight: 600;
+        font-weight: 400;
         font-size: 26px;
         margin: 0px;
-        line-height: 1.3;
     }
 
     .content-1 p {
-        font-size: 20px;
+        font-size: 18px;
         margin: 0px;
-        line-height: 1.3;
     }
 
     .links {
@@ -39,26 +37,22 @@
     
     .button {
         background: linear-gradient(215deg, rgb(255, 162, 22) 0%,rgb(230, 14, 226) 100%);
-        color: #ffffff;
+        color: #fff;
         text-align: center;
         text-decoration: none;
         font-size: 16px;
         font-weight: 600;
-        border-radius: 8px;
-        padding: 8px 42px;
-        margin: 0px 7px 0px 0px;
-        transition: ease-in-out 0.1s;
+        border-radius: 12px;
+        padding: 10px 42px;
+        margin: 0px 8px 0px 0px;
+        transition: ease-in-out 0.2s;
     }
 
     .button:hover {
-        padding: 8px 46px;
+        padding: 10px 44px;
     }
 
     @media all and (max-width: 575px) {
-        .content-1 p {
-            font-size: 18px;
-        }
-
         .button {
             display: block;
             margin: 9px 0px 0px 0px;

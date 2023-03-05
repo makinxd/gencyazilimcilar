@@ -27,9 +27,10 @@
 
     :global(body) {
         background-color: #0f0f12;
+        background: url(../assets/background.jpg);
         color: #ffffff;
         font-family: 'Exo 2', sans-serif;
-        max-width: 125ch;
+        max-width: 115ch;
         height: 100%;
         margin: 0 auto;
         padding: 0px 30px 0px 30px;
