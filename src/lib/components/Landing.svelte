@@ -3,8 +3,8 @@
         <h1>Genç geliştiriciler için genç bir ortam.</h1>
         <p>Genç Yazılımcılar, 100'den fazla üyesiyle birlikte gelişen bir geliştirici topluluğudur.</p>
         <div class="links">
-            <a href="https://discord.gg/kEYXgAZndV" target="_blank" rel="noreferrer nofollow" class="button">Discord'da bize katıl</a>
-            <a href="https://www.instagram.com/gyazilimcilar/" target="_blank" rel="noreferrer nofollow" class="button" style="background: transparent; box-shadow: inset 0px 0px 0px 2px white;">Instagram'da bizi takip et</a>
+            <a href="https://discord.gg/kEYXgAZndV" target="_blank" rel="noreferrer nofollow" class="button">Discord'da bize katıl &#8250;</a>
+            <a href="https://www.instagram.com/gyazilimcilar/" target="_blank" rel="noreferrer nofollow" class="button" style="background: transparent; box-shadow: inset 0px 0px 0px 2px white;">Instagram'da bizi takip et &#8250;</a>
         </div>
     </div>
 </div>
@@ -42,14 +42,14 @@
         text-decoration: none;
         font-size: 16px;
         font-weight: 600;
-        border-radius: 12px;
-        padding: 10px 42px;
-        margin: 0px 8px 0px 0px;
-        transition: ease-in-out 0.2s;
+        border-radius: 10px;
+        padding: 9px 44px;
+        margin: 0px 6px 0px 0px;
+        transition: ease-in-out 0.25s;
     }
 
     .button:hover {
-        padding: 10px 44px;
+        padding: 9px 46px;
     }
 
     @media all and (max-width: 575px) {

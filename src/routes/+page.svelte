@@ -27,7 +27,7 @@
 
     :global(body) {
         background-color: #0f0f12;
-        background: url(../assets/background.jpg);
+        background: url(../assets/background.png);
         background-size: cover;
         color: #ffffff;
         font-family: 'Exo 2', sans-serif;
